@@ -1,0 +1,97 @@
+{
+    "plates": [
+        {
+            "id": "1",
+            "title": "Waffle",
+            "subtitle": "Waffle with Berries",
+            "quantity": "1",
+            "priceValue": "6.50",
+            "price": "$6.50",
+            "image": "src/assets/images/image-waffle-desktop.jpg",
+            "mobile": "src/assets/images/image-waffle-mobile.jpg"
+            
+        },
+        {
+            "id": "2",
+            "title": "Crème Brûlée",
+            "subtitle": "Vanilla Bean Crème Brûlée",
+            "quantity": "1",
+            "priceValue": "7.00",
+            "price": "$7.00",
+            "image": "src/assets/images/image-creme-brulee-desktop.jpg",
+             "mobile": "src/assets/images/image-creme-brulee-mobile.jpg"
+        },
+        {
+            "id": "3",
+            "title": "Macaron",
+            "subtitle": "Macaron Mix of Five",
+            "quantity": "1",
+            "priceValue": "8.00",
+            "price": "$8.00",
+            "image": "src/assets/images/image-macaron-desktop.jpg",
+            "mobile": "src/assets/images/image-macaron-mobile.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Tiramisu",
+            "subtitle": "Classic Tiramisu",
+            "quantity": "1",
+            "priceValue": "5.50",
+            "price": "$5.50",
+            "image": "src/assets/images/image-tiramisu-desktop.jpg",
+            "mobile": "src/assets/images/image-tiramisu-mobile.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Baklava",
+            "subtitle": "Pistachio Baklava",
+            "quantity": "1",
+            "priceValue": "4.00",
+            "price": "$4.00",
+            "image": "src/assets/images/image-baklava-desktop.jpg",
+            "mobile": "src/assets/images/image-baklava-mobile.jpg"
+        },
+        {
+            "id": "6",
+            "title": "Pie",
+            "subtitle": "Lemon Meringue Pie",
+            "quantity": "1",
+            "priceValue": "5.00",
+            "price": "$5.00",
+            "image": "src/assets/images/image-meringue-desktop.jpg",
+            "mobile": "src/assets/images/image-meringue-mobile.jpg"
+        },
+        {
+            "id": "7",
+            "title": "Cake",
+            "subtitle": "Cart Red Velvet Cake",
+            "quantity": "1",
+            "priceValue": "4.50",
+            "price": "$4.50",
+            "image": "src/assets/images/image-cake-desktop.jpg",
+            "mobile": "src/assets/images/image-cake-mobile.jpg"
+        },
+        {
+            "id": "8",
+            "title": "Brownie",
+            "subtitle": "Salted Caramel Brownie",
+            "quantity": "1",
+            "priceValue": "4.50",
+            "price": "$4.50",
+            "image": "src/assets/images/image-brownie-desktop.jpg",
+            "mobile": "src/assets/images/image-brownie-mobile.jpg"
+        },
+        {
+            "id": "9",
+            "title": "Panna Cotta",
+            "subtitle": "Vanilla Panna Cotta",
+            "quantity": "1",
+            "priceValue": "6.50",
+            "price": "$6.50",
+            "image": "src/assets/images/image-panna-cotta-desktop.jpg",
+            "mobile": "src/assets/images/image-panna-cotta-mobile.jpg"
+        }
+    ]
+
+    
+}
