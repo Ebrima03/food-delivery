@@ -144,10 +144,10 @@ const addMoreCart = () =>  {
     </div>
     </div>
     {/* confirm cart */}
-    <div className={`${showCart ? "flex" : "hidden"} absolute flex flex-col bg-white rounded-2xl p-3 w-full h-screen md:w-1/2 top-[100px] left-[0px]  md:left-[350px] `}>
-      <img src={confirm} alt="" className="mb-6 md:mb-12 w-[50px] md:w-[100px]"/>
-      <div className="mb-12">
-        <h1 className="text-4xl font-bold mb-3 md:mb-6">Order Confirmed</h1>
+    <div className={`${showCart ? "flex" : "hidden"} absolute flex flex-col bg-white rounded-2xl p-3 w-full h-screen md:w-1/2 top-[100px] left-0  md:left-[300px] `}>
+      <img src={confirm} alt="" className="mb-3 w-[50px]"/>
+      <div className="mb-6">
+        <h1 className="text-2xl md:text-4xl font-bold mb-3 ">Order Confirmed</h1>
         <span className="text-gray-400">We hope you enjoy your food!</span>
       </div>
       {/* confirm cart details*/}
@@ -156,8 +156,8 @@ const addMoreCart = () =>  {
           return (
             <div className="" key={index}>
           <div className="flex gap-6 mb-4" >
-            <img src={item.image} alt="" className="w-[100px] rounded-2xl"/>
-            <div className="flex flex-col gap-3 mt-3 flex-1">
+            <img src={item.image} alt="" className="w-[70px] h-[70px] rounded-1xl"/>
+            <div className="flex flex-col gap-3 ">
               <h4>{item.subtitle}</h4>
               <div>
               <span className="text-red-600 font-bold">{item.quantity}x</span>
@@ -167,7 +167,7 @@ const addMoreCart = () =>  {
               </div>
               
           </div>
-          <hr className="w-full h-1 text-gray-400 my-6" />
+          <hr className="w-full h-1 text-gray-400 my-2" />
           </div>
         );
         })}
@@ -176,14 +176,14 @@ const addMoreCart = () =>  {
       </div>
       {/*   Order confirm total */}
 
-      <div className="flex justify-between items-center mt-9 mb-9">
+      <div className="flex justify-between items-center mt-3 mb-3">
             <p className=" text-gray-400">Order Total</p>
             <h1 className="text-2xl font-bold">${totalPriceOfAllItems.toFixed(2)}</h1>
           </div>
       {/*  */}
       <div className="mt-9">
             <button
-              className="w-full h-[75px] bg-red-700 text-white font-bold py-3 rounded-full"
+              className="w-full  bg-red-700 text-white font-bold py-3 rounded-full"
            onClick={addMoreCart} >
               Start New Order
             </button>
