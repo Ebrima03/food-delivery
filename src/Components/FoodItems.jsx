@@ -1,6 +1,3 @@
-import decrementBtn from "../assets/images/icon-decrement-quantity.svg"
-import incrementBtn from "../assets/images/icon-increment-quantity.svg"
-import addToCard from "../assets/images/icon-add-to-cart.svg"
 import { useState } from "react"
 
 const FoodItems = ({item, addToCart, isInCart = false, initialQuantity = 1}) => {
@@ -47,7 +44,7 @@ const changeButton = () => {
                    <button
                      className={`${defaultBtn ? "flex" : "hidden"} absolute items-center justify-center bottom-23 left-1/8 right-1/6 md:right-1/8 gap-2 border-2 border-gray-300 bg-white p-2 rounded-full`}
                    onClick={ changeButton }>
-                     <img src={addToCard} alt="" />
+                     <img src="public/images/icon-add-to-cart.svg" alt="" />
                      <span>Add to Cart</span>
                    </button>
                    {/* <!-- the selectBtn --> */}
@@ -55,13 +52,13 @@ const changeButton = () => {
                      className={`${!defaultBtn ? "flex" : "hidden"} absolute justify-between bottom-23 left-1/8 right-1/6 md:right-1/8 border border-gray-300 bg-red-700 py-2 px-3 rounded-full`}
                    >
                      <img
-                       src={decrementBtn}
+                       src="public/images/icon-decrement-quantity.svg"
                        alt=""
                        className="border-2 border-white rounded-full px-2 py-2"
                     onClick={decrement} />
                      <span className="counter text-white font-bold">{counter}</span>
                      <img
-                       src={incrementBtn}
+                       src="public/images/icon-increment-quantity.svg"
                        alt=""
                        className=" border-2 border-white rounded-full px-2 py-2"
                      onClick={increment}/>

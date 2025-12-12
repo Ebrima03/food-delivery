@@ -1,9 +1,5 @@
 import plate from "./Plates.json"
 import FoodItems from "./Components/FoodItems"
-import closeBtn from "../src/assets/images/icon-remove-item.svg"
-import icon from "../src/assets/images/icon-carbon-neutral.svg"
-import confirm from "../src/assets/images/icon-order-confirmed.svg"
-import emtyCart from "../src/assets/images/illustration-empty-cart.svg"
 import { useState } from "react"
 
 const App = () => {
@@ -92,7 +88,7 @@ const addMoreCart = () =>  {
           <h2 className="number-of-items font-bold text-2xl text-red-600 mb-4">Your Cart ({cartItems.length})</h2>
 
           <div className={`${cartItems.length  <= 0 ? "flex" : "hidden"} flex-col justify-center items-center gap-6`}>
-            <img src={emtyCart} alt="" />
+            <img src="public/images/illustration-empty-cart.svg" alt="" />
             <p className="text-yellow-950 font-bold">Your added items will appear here</p>
           </div>
           <div className="overflow-auto h-[300px]">
@@ -107,7 +103,7 @@ const addMoreCart = () =>  {
               <div
                 className="absolute right-0 bottom-6 border-2 border-gray-300 p-1 rounded-full"
               >
-                <img src={closeBtn} alt="" onClick={() => removeCartItem(item.id)}/>
+                <img src="../public/images/icon-remove-item.svg" alt="" onClick={() => removeCartItem(item.id)}/>
               </div>
             </div>
              <hr className="w-full h-1 text-gray-400 my-6" />
@@ -128,7 +124,7 @@ const addMoreCart = () =>  {
           <div
             className={`${cartItems.length  <= 0 ? "hidden" : "flex"} flex justify-center items-center gap-2 bg-amber-50 p-3 rounded-2xl`}
           >
-            <img src={icon} alt="" />
+            <img src="../public/images/icon-carbon-neutral.svg" alt="" />
             <p>This is <b>carbon neutral</b> delivery</p>
           </div>
            {/* confirmation */}
@@ -145,7 +141,7 @@ const addMoreCart = () =>  {
     </div>
     {/* confirm cart */}
     <div className={`${showCart ? "flex" : "hidden"} absolute flex flex-col bg-white rounded-2xl p-3 w-full h-screen md:w-1/2 top-[100px] left-0  md:left-[300px] `}>
-      <img src={confirm} alt="" className="mb-3 w-[50px]"/>
+      <img src="../public/images/icon-order-confirmed.svg" alt="" className="mb-3 w-[50px]"/>
       <div className="mb-6">
         <h1 className="text-2xl md:text-4xl font-bold mb-3 ">Order Confirmed</h1>
         <span className="text-gray-400">We hope you enjoy your food!</span>
