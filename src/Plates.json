@@ -7,8 +7,8 @@
             "quantity": "1",
             "priceValue": "6.50",
             "price": "$6.50",
-            "image": "public/images/image-waffle-desktop.jpg",
-            "mobile": "public/images/image-waffle-mobile.jpg"
+            "image": "/images/image-waffle-desktop.jpg",
+            "mobile": "/images/image-waffle-mobile.jpg"
             
         },
         {
@@ -18,8 +18,8 @@
             "quantity": "1",
             "priceValue": "7.00",
             "price": "$7.00",
-            "image": "public/images/image-creme-brulee-desktop.jpg",
-             "mobile": "public/images/image-creme-brulee-mobile.jpg"
+            "image": "/images/image-creme-brulee-desktop.jpg",
+             "mobile": "/images/image-creme-brulee-mobile.jpg"
         },
         {
             "id": "3",
@@ -28,8 +28,8 @@
             "quantity": "1",
             "priceValue": "8.00",
             "price": "$8.00",
-            "image": "public/images/image-macaron-desktop.jpg",
-            "mobile": "public/images/image-macaron-mobile.jpg"
+            "image": "/images/image-macaron-desktop.jpg",
+            "mobile": "/images/image-macaron-mobile.jpg"
         },
         {
             "id": "4",
@@ -38,8 +38,8 @@
             "quantity": "1",
             "priceValue": "5.50",
             "price": "$5.50",
-            "image": "public/images/image-tiramisu-desktop.jpg",
-            "mobile": "public/images/image-tiramisu-mobile.jpg"
+            "image": "/images/image-tiramisu-desktop.jpg",
+            "mobile": "/images/image-tiramisu-mobile.jpg"
         },
         {
             "id": "5",
@@ -48,8 +48,8 @@
             "quantity": "1",
             "priceValue": "4.00",
             "price": "$4.00",
-            "image": "public/images/image-baklava-desktop.jpg",
-            "mobile": "public/images/image-baklava-mobile.jpg"
+            "image": "/images/image-baklava-desktop.jpg",
+            "mobile": "/images/image-baklava-mobile.jpg"
         },
         {
             "id": "6",
@@ -58,8 +58,8 @@
             "quantity": "1",
             "priceValue": "5.00",
             "price": "$5.00",
-            "image": "public/images/image-meringue-desktop.jpg",
-            "mobile": "public/images/image-meringue-mobile.jpg"
+            "image": "/images/image-meringue-desktop.jpg",
+            "mobile": "/images/image-meringue-mobile.jpg"
         },
         {
             "id": "7",
@@ -68,8 +68,8 @@
             "quantity": "1",
             "priceValue": "4.50",
             "price": "$4.50",
-            "image": "public/images/image-cake-desktop.jpg",
-            "mobile": "public/images/image-cake-mobile.jpg"
+            "image": "/images/image-cake-desktop.jpg",
+            "mobile": "/images/image-cake-mobile.jpg"
         },
         {
             "id": "8",
@@ -78,8 +78,8 @@
             "quantity": "1",
             "priceValue": "4.50",
             "price": "$4.50",
-            "image": "public/images/image-brownie-desktop.jpg",
-            "mobile": "public/images/image-brownie-mobile.jpg"
+            "image": "/images/image-brownie-desktop.jpg",
+            "mobile": "/images/image-brownie-mobile.jpg"
         },
         {
             "id": "9",
@@ -88,8 +88,8 @@
             "quantity": "1",
             "priceValue": "6.50",
             "price": "$6.50",
-            "image": "public/images/image-panna-cotta-desktop.jpg",
-            "mobile": "public/images/image-panna-cotta-mobile.jpg"
+            "image": "/images/image-panna-cotta-desktop.jpg",
+            "mobile": "/images/image-panna-cotta-mobile.jpg"
         }
     ]
 
