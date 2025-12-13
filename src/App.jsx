@@ -82,13 +82,13 @@ const addMoreCart = () =>  {
       </div>
       {/* <!-- left side end --> */}
       
-        <div className="mt-6 ml-3 mr-3 md:mr-9 flex-1">
+        <div className="mt-6 ml-3 mr-3 md:mr-9 flex-1 ">
         <div className=" bg-white rounded-2xl p-6  mb-6">
           {/* <!--  --> */}
           <h2 className="number-of-items font-bold text-2xl text-red-600 mb-4">Your Cart ({cartItems.length})</h2>
 
           <div className={`${cartItems.length  <= 0 ? "flex" : "hidden"} flex-col justify-center items-center gap-6`}>
-            <img src="public/images/illustration-empty-cart.svg" alt="" />
+            <img src="/images/illustration-empty-cart.svg" alt="" />
             <p className="text-yellow-950 font-bold">Your added items will appear here</p>
           </div>
           <div className="overflow-auto h-[300px]">
